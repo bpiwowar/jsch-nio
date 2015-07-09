@@ -7,10 +7,17 @@
     <version>9</version>
   </parent>
 
-  <groupId>com.pastdev</groupId>
+  <groupId>net.bpiwowar</groupId>
   <artifactId>jsch-nio</artifactId>
   <version>0.1.8-SNAPSHOT</version>
   <packaging>jar</packaging>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>sonatype-nexus-snapshots</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <name>JSch NIO FileSystem Implementation</name>
   <description>A Java 7 FileSystem implementation over SSH using JSch and jsch-extension</description>
